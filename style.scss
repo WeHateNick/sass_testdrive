@@ -1,0 +1,36 @@
+/*Variables
+=======================*/
+$primary-color: coral;
+$secondary-color: steelblue;
+$padding: 20px;
+$margin: 60px;
+
+/*Styles
+=======================*/
+p {
+	color: blue;
+}
+body {
+	background: $primary-color;
+}
+.nav {
+	background: $secondary-color;
+	display: block;
+	width: 100%;
+	min-height: 80px;
+	text-align: center;
+	h1 {
+		padding: $padding;
+	}
+}
+.box {
+	background: yellow;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	padding: $padding;
+	margin: $margin;
+}
+.footer {
+	@extend .nav;
+}

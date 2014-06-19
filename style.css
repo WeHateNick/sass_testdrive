@@ -1,0 +1,26 @@
+/*Variables
+=======================*/
+/*Styles
+=======================*/
+p {
+  color: blue; }
+
+body {
+  background: coral; }
+
+.nav, .footer {
+  background: steelblue;
+  display: block;
+  width: 100%;
+  min-height: 80px;
+  text-align: center; }
+  .nav h1, .footer h1 {
+    padding: 20px; }
+
+.box {
+  background: yellow;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 60px; }
