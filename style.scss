@@ -1,14 +1,26 @@
+/*Mixins and Extends
+=======================*/
+
 /*Variables
 =======================*/
 $primary-color: coral;
-$secondary-color: steelblue;
+$secondary-color: #458;
+$box-color: steelblue;
 $padding: 20px;
 $margin: 60px;
+$text-color: white;
 
 /*Styles
 =======================*/
 p {
-	color: blue;
+	color: $text-color;
+	a {
+		color: $primary-color;
+		text-decoration: none;
+		&:hover {
+			color: $text-color;
+		}
+	}
 }
 body {
 	background: $primary-color;
@@ -21,15 +33,18 @@ body {
 	text-align: center;
 	h1 {
 		padding: $padding;
+		margin: 0;
+		color: $text-color;
 	}
 }
 .box {
-	background: yellow;
+	background: $box-color;
 	display: inline-block;
 	width: 300px;
 	height: 300px;
 	padding: $padding;
 	margin: $margin;
+	border-radius: 5px;
 }
 .footer {
 	@extend .nav;
