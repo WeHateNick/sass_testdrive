@@ -16,7 +16,7 @@ body {
   background: coral; }
 
 .nav, .footer {
-  background: #445588;
+  background: steelblue;
   display: block;
   width: 100%;
   min-height: 80px;

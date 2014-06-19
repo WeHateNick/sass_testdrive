@@ -4,8 +4,7 @@
 /*Variables
 =======================*/
 $primary-color: coral;
-$secondary-color: #458;
-$box-color: steelblue;
+$secondary-color: steelblue;
 $padding: 20px;
 $margin: 60px;
 $text-color: white;
@@ -38,7 +37,7 @@ body {
 	}
 }
 .box {
-	background: $box-color;
+	background: $secondary-color;
 	display: inline-block;
 	width: 300px;
 	height: 300px;
